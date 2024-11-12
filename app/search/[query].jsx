@@ -13,6 +13,7 @@ const Search = () => {
 
   useEffect(() => {
     refetch();
+    console.log(query);
   }, [query]);
 
   return (
